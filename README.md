@@ -5,7 +5,7 @@
 ## Collect tweet streams based on a perticular event/keyword. E.g:-
 
 ```
-	python twitter_stream_download.py -q FakeNews -d <directory-where-tweet-streams-to-store>
+	python twitter_stream_downloader.py -q FakeNews -d <directory-where-tweet-streams-to-store>
 ```
 
 ## Evaluate sentiments based on the tweets you received. E.g:-
