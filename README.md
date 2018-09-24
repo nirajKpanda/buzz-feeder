@@ -11,7 +11,7 @@
 ## Evaluate sentiments based on the tweets you received. E.g:-
 
 ```
-	python sentiment_evaluator <filename-where-tweet-streams-are-stored>
+	python sentiment_evaluator.py <filename-where-tweet-streams-are-stored>
 ```
 
 # TODOS
@@ -19,3 +19,4 @@
 1. Implementation of more accurate tweet stream collection logic as per keyword and events
 2. Develop logic for filtering out bad stuffs in tweet streams(hyperlink, bad mentions...)
 3. Provide more flexibility for user to visualize tweet sentiments(graph, chart......)
+4. Picking the most talked hashtags of the given day and filtering trend of this
